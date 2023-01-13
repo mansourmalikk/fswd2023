@@ -1,0 +1,3 @@
+
+                             <td width="33"> <button class="resume"> <p>Download Resume</p></button></td>
+                            <td width="33%"><button class="contactMe"> <p>Contact ME</p></button></td>
