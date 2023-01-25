@@ -18,8 +18,17 @@
       .row2 {
         display: flex;
         background-color: #ccc;
-        justify-content: center;
       }
+      .row3 {
+        display: flex;
+        background-color: #ccc;
+        border-radius: 15px;
+      }
+      .row3 div{padding: 4px;
+        background-color: #6e757c;
+        margin-bottom: 15px;
+       
+      color: white;}
       .flex {
         width: 30%;
         display: flex;
@@ -37,7 +46,7 @@
       }
       .text {
         text-align: right;
-        margin-right: 40px;
+        
       }
       .img1 {
         border-radius: 150px;
@@ -56,20 +65,17 @@
       .project {
         display: flex;
         background: #eee;
-        justify-content: center;
-        margin-left: 15px;
-        padding:0 0 0 50px;
+        
       }
       .project div {
         width: 33.3333%;
-        padding-right: 5px;
+        padding-right: 7px;
       }
       .projecttext {
         display: flex;
-        flex-wrap: wrap;
+        
         justify-content: center;
-        margin-left: 15px;
-        padding: 0 0 0 65px;
+       
       }
       .projecttext div {
         width: 33.33333%;
@@ -85,49 +91,57 @@
         padding: 20px;
       }
       .footer div {
-        width: 40%;
-        margin: 5 15px;
+        width: 50%;
+       
       }
       .personal {
         background-color: white;
-        margin-right: 10px;
-        margin-left: 80px;
+        margin-right: 3px;
       }
       .education {
         background-color: black;
         color: white;
+        margin-left: 3px;
       }
      .project img{width:100%}
     </style>
   </head>
   <body>
     <div class="row1">
+      <div style="width: 10%;" class="void"></div>
       <div><img class="img1" width="50%" src="mansour.jpeg" alt="" /></div>
       <div class="text">
-        <h3>Dinesh</h3>
-        <p>Technical Trainer</p>
-        <p>Web Developer</p>
+        <h1>Mansour</h1>
+        <h2>Technical Trainer</p>
+        <h3>Web Developer</p>
         <button>Email Me</button>
       </div>
+      <div style="width: 10%;" class="void"></div>
     </div>
     <div class="row2">
-      <div class="flex">
-        <div>Projects</div>
+      <div style="width: 40%;"></div>
+      <div class="row3">
+        <div>Projects </div>
         <div>About ME</div>
-        <div>Contact Me</div>
+        <div>Contact ME</div>
       </div>
+      <div style="width: 40%;"></div>
+
     </div>
-    <div class="experience" ="text-align: center; margin: 15px 0">
+    <div class="experience" style="text-align: center;padding;: 15px 0">
       Projects/Experience
     </div>
     <div class="bigrow">
       <div class="project">
+        <div style="width: 10%;" class="void"></div>
         <div><img src="resume.jpeg" alt="" /></div>
         <div><img src="resume.jpeg" alt="" /></div>
         <div><img src="resume.jpeg" alt="" /></div>
+        <div style="width: 10%;" class="void"></div>
       </div>
 
       <div class="projecttext">
+        <div style="width: 10%;" class="void"></div>
         <div>
           <h3>Project Title 1</h3>
           <p>Project Explaantion goes here</p>
@@ -142,36 +156,42 @@
           <h3>Project Title 3</h3>
           <p>Project Explaantion goes here</p>
         </div>
+        <div style="width: 9%;" class="void"></div>
       </div>
       <div class="project">
+        <div style="width: 10%;" class="void"></div>
         <div><img src="resume.jpeg" alt="" /></div>
         <div><img src="resume.jpeg" alt="" /></div>
         <div><img src="resume.jpeg" alt="" /></div>
+        <div style="width: 10%;" class="void"></div>
       </div>
 
       <div class="projecttext">
+        <div style="width: 10%;" class="void"></div>
         <div>
-          <h3>Project Title 4</h3>
+          <h3>Project Title 1</h3>
           <p>Project Explaantion goes here</p>
         </div>
 
         <div>
-          <h3>Project Title 5</h3>
+          <h3>Project Title 2</h3>
           <p>Project Explaantion goes here</p>
         </div>
 
         <div>
-          <h3>Project Title 6</h3>
+          <h3>Project Title 3</h3>
           <p>Project Explaantion goes here</p>
         </div>
-        <div style="height: 30px"></div>
+        <div style="width: 10%;" class="void"></div>
       </div>
+        <div style="height: 30px"></div>
       <div style="height: 30px"></div>
-    </div>
+   
     <div style="text-align: center; padding: 15px 0; background-color: #ccc">
       About me
     </div>
     <div class="footer">
+      <div style="width: 10%;"></div>
       <div class="personal">
         <h4 style="text-align: center">Personal Details</h4>
         <ul>
@@ -192,6 +212,7 @@
           <li>Access,Word,Powerpoint</li>
         </ol>
       </div>
+      <div style="width: 10%;"></div>
     </div>
     <div style="padding: 20px 0; text-align: center;background-color: #eee;"> Copyright 2023</div>
   </body>
