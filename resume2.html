@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .row1 {
+        display: flex;
+        background-color: #ccc;
+        justify-content: space-between;
+        padding: 0 50px;
+      }
+      .row2 {
+        display: flex;
+        background-color: #ccc;
+        justify-content: center;
+      }
+      .flex {
+        width: 30%;
+        display: flex;
+      }
+      .row1 div {
+        width: 50%;
+        margin: 0 20px;
+      }
+      button {
+        background-color: #4ab;
+        color: white;
+        border-style: none;
+        padding: 5px;
+        border-radius: 3px;
+      }
+      .text {
+        text-align: right;
+        margin-right: 40px;
+      }
+      .img1 {
+        border-radius: 150px;
+      }
+
+      .flex div {
+        background: #6e757c;
+        width: 33.333333%;
+        color: white;
+      }
+
+      .bigrow {
+        justify-content: center;
+        background: #eee;
+      }
+      .project {
+        display: flex;
+        background: #eee;
+        justify-content: center;
+        margin-left: 15px;
+        padding:0 0 0 50px;
+      }
+      .project div {
+        width: 33.3333%;
+        padding-right: 5px;
+      }
+      .projecttext {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 15px;
+        padding: 0 0 0 65px;
+      }
+      .projecttext div {
+        width: 33.33333%;
+      }
+      .experience {
+        text-align: center;
+       padding: 15px 0;
+        background-color:#eee ;
+      }
+      .footer {
+        display: flex;
+        background-color: #ccc;
+        padding: 20px;
+      }
+      .footer div {
+        width: 40%;
+        margin: 5 15px;
+      }
+      .personal {
+        background-color: white;
+        margin-right: 10px;
+        margin-left: 80px;
+      }
+      .education {
+        background-color: black;
+        color: white;
+      }
+     .project img{width:100%}
+    </style>
+  </head>
+  <body>
+    <div class="row1">
+      <div><img class="img1" width="50%" src="mansour.jpeg" alt="" /></div>
+      <div class="text">
+        <h3>Dinesh</h3>
+        <p>Technical Trainer</p>
+        <p>Web Developer</p>
+        <button>Email Me</button>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="flex">
+        <div>Projects</div>
+        <div>About ME</div>
+        <div>Contact Me</div>
+      </div>
+    </div>
+    <div class="experience" ="text-align: center; margin: 15px 0">
+      Projects/Experience
+    </div>
+    <div class="bigrow">
+      <div class="project">
+        <div><img src="resume.jpeg" alt="" /></div>
+        <div><img src="resume.jpeg" alt="" /></div>
+        <div><img src="resume.jpeg" alt="" /></div>
+      </div>
+
+      <div class="projecttext">
+        <div>
+          <h3>Project Title 1</h3>
+          <p>Project Explaantion goes here</p>
+        </div>
+
+        <div>
+          <h3>Project Title 2</h3>
+          <p>Project Explaantion goes here</p>
+        </div>
+
+        <div>
+          <h3>Project Title 3</h3>
+          <p>Project Explaantion goes here</p>
+        </div>
+      </div>
+      <div class="project">
+        <div><img src="resume.jpeg" alt="" /></div>
+        <div><img src="resume.jpeg" alt="" /></div>
+        <div><img src="resume.jpeg" alt="" /></div>
+      </div>
+
+      <div class="projecttext">
+        <div>
+          <h3>Project Title 4</h3>
+          <p>Project Explaantion goes here</p>
+        </div>
+
+        <div>
+          <h3>Project Title 5</h3>
+          <p>Project Explaantion goes here</p>
+        </div>
+
+        <div>
+          <h3>Project Title 6</h3>
+          <p>Project Explaantion goes here</p>
+        </div>
+        <div style="height: 30px"></div>
+      </div>
+      <div style="height: 30px"></div>
+    </div>
+    <div style="text-align: center; padding: 15px 0; background-color: #ccc">
+      About me
+    </div>
+    <div class="footer">
+      <div class="personal">
+        <h4 style="text-align: center">Personal Details</h4>
+        <ul>
+          <li>Mansour</li>
+          <li>2003/3/21</li>
+          <li>Dushanbe</li>
+          <li>Single</li>
+          <li>Ph:12121212111</li>
+        </ul>
+      </div>
+      <div class="education">
+        <h4 style="text-align: center">Education/Skillset</h4>
+        <ol>
+          <li>School</li>
+          <li>BCA</li>
+          <li>HTML,CSS,BOOTSTRAP...</li>
+          <li>PHP,AP</li>
+          <li>Access,Word,Powerpoint</li>
+        </ol>
+      </div>
+    </div>
+    <div style="padding: 20px 0; text-align: center;background-color: #eee;"> Copyright 2023</div>
+  </body>
+</html>
