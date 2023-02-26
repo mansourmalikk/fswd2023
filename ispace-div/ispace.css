@@ -4,25 +4,31 @@
     box-sizing: border-box;
 }
 
+* {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
 .header {
-    display: flex;
+
     width: 100%;
-    justify-content: center;
+
 }
 
 .nav {
     display: flex;
     width: 60%;
-    align-content: center;
+    margin: auto;
+    justify-content: space-between;
 
 }
 
-.nav div {
-    width: 120px;
-    height: 50px;
+.nav>div {
+    width: 19%;
     color: #949494;
     text-align: center;
-    padding: 30px 10px 5px;
+    padding: 30px 10px;
+
 
 }
 
@@ -32,32 +38,25 @@
 }
 
 .ispace {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0
+    margin: 10px 0;
+    text-align: center;
 }
 
-span {
-    font-size: 60px;
-    color: #DD5;
-}
+
 
 .ispace p {
     font-size: 50px;
     color: #949494;
+    margin: 20px 0;
 }
 
-.main-img {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.ispace p::first-letter {
+    color: #b3bd45;
+    font-weight: bolder;
 }
-
 .img {
-    width: 90%;
+    width: 80%;
+    margin: auto;
 }
 
 .button {
@@ -66,14 +65,18 @@ span {
 }
 
 .lorem-main {
-    justify-content: space-evenly;
+    justify-content: space-between;
     display: flex;
+    margin: auto;
+    width: 80%;
 }
 
-.lorem-main div {
-    display: flex;
-    flex-direction: column;
-    width: 27%;
+.lorem-main img {
+    width: 100%;
+}
+
+.lorem-main>div {
+    width: 32%;
 
 }
 
@@ -87,28 +90,28 @@ span {
     font-weight: 800;
 }
 
-#col1-p {
-    background-color: #716762;
-    padding: 10px 10px 60px;
-    text-align: center;
-    font-size: medium;
-    font-weight: 400;
+.col1-p {
+    background-color: #716762 !important;
+    padding: 10px 10px 60px !important;
+    text-align: center !important;
+    font-size: medium !important;
+    font-weight: 400 !important;
 }
 
 .lorem-3 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: #555;
+    margin: auto;
+    width: 80%;
 }
 
-.lorem-3 div {
-    display: flex;
-    flex-direction: column;
-    width: 27%;
+.lorem-3>div {
+
+    width: 31%;
 }
 
 .first-col {
-    display: flex;
     color: #555;
     list-style-type: square;
 
@@ -122,11 +125,11 @@ ul {
 }
 
 li {
-    padding: 13px 0;
+    padding: 7px 0;
 }
 
 .second-col {
-    display: flex;
+
     color: #555;
 
 }
@@ -142,9 +145,7 @@ li {
 
 }
 
-.third-col {
-    display: flex;
-}
+.third-col {}
 
 button {
     color: white;
@@ -171,13 +172,15 @@ hr {
 
 .footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
 }
 
-.footer div {
-    width: 37%;
+.footer>div {
+    width: 48%;
     display: flex;
-    height: 190px;
+
 
 }
 
@@ -185,7 +188,7 @@ hr {
     display: flex;
 }
 
-#number {
+.number {
     background-color: #b3bd45;
     color: white;
     width: 20%;
@@ -195,26 +198,25 @@ hr {
     align-items: center;
 }
 
-#number h1 {
+.number h1 {
     text-align: center;
     width: 100%;
     padding-top: 10px;
 }
 
-#footer-lorem {
+.footer-lorem {
     background-color: #544c49;
     width: 80%;
-    display: flex;
-    flex-direction: column;
+
 }
 
-#footer-lorem h3 {
+.footer-lorem>h3 {
     width: 100%;
     color: #cd5;
     padding-left: 10px;
 }
 
-#footer-lorem p {
+.footer-lorem>p {
     color: #bba;
     padding-left: 10px;
 }
@@ -223,18 +225,62 @@ hr {
     text-align: center;
 }
 
-@media (max-width:576px) {
 
-    .nav .ispace,
-    .lorem-main,
-    .lorem-3,
-    .footer {
-        flex-direction: column;
+@media screen and (max-width:992px) {
+    .nav>div {
+        width: 30%;
+
+    }
+
+    .lorem-3>div {
+        width: 48%;
+    }
+
+    .footer>div {
+        width: 80%;
+        margin: auto 2px;
+    }
+    .lorem-main>div {
+        width: 49%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .nav>div {
+        width: 50%;
+    }
+
+    .lorem-main>div {
+        width: 48%;
+    }
+
+    .lorem-3>div {
+        width: 48%;
+    }
+
+    .footer>div {
+        width: 100%
+    }
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .nav>div {
         width: 100%;
 
     }
 
-    .img {
-        width: 200px;
+    .lorem-main>div {
+        width: 100%;
+    }
+
+    .lorem-3>div {
+        width: 100%;
+    }
+
+    .footer>div {
+        width: 100%
     }
 }
