@@ -54,6 +54,7 @@
     color: #b3bd45;
     font-weight: bolder;
 }
+
 .img {
     width: 80%;
     margin: auto;
@@ -238,8 +239,9 @@ hr {
 
     .footer>div {
         width: 80%;
-        margin: auto 2px;
+        margin:2px auto;
     }
+
     .lorem-main>div {
         width: 49%;
     }
