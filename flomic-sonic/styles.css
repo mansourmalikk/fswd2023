@@ -1,0 +1,441 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.flomic {
+  height: 100vh;
+  background-color: #4c5055;
+  width: 20%;
+  position: fixed;
+}
+
+.container {
+  width: 80%;
+  margin-left: 20%;
+}
+
+.img > img {
+  width: 100%;
+  margin: 30px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  border-bottom: gray solid 0.1px;
+  background-color: #3a3e42;
+}
+
+#home {
+  border-left: blue solid;
+  color: blue;
+}
+
+li:nth-child(2) {
+  border-left: orange solid;
+}
+
+li:nth-child(3) {
+  border-left: purple solid;
+}
+
+li:nth-child(4) {
+  border-left: greenyellow solid;
+}
+
+li:last-child {
+  border-left: solid red;
+}
+
+.first-row {
+  background: url(wallpaper2.jpg) center;
+  width: 100%;
+  color: white;
+  font-family: sans-serif;
+}
+
+.row-1 {
+  padding-top: 140px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.row-1 > h1 {
+  font-weight: 900;
+}
+
+.row-1 > p {
+  line-height: 20px;
+}
+
+.read-more {
+  padding-top: 20px;
+}
+
+.read-more > button {
+  padding: 10px;
+  background-color: #5aa7de;
+  border: none;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.buttons {
+  width: 100%;
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.fluid,
+.fluid-icon {
+  width: 80%;
+  margin-left: 20%;
+}
+
+.row-2 {
+  width: 80%;
+  margin: 45px auto 0;
+  padding-bottom: 30px;
+}
+
+.row-2 > h3 {
+  color: #5aa7de;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.row-2 > p {
+  color: #4c5055;
+  text-align: justify;
+}
+
+p > a {
+  text-decoration: none;
+  margin: 0;
+  color: #5aa7de;
+}
+
+.row-3 {
+  border-top: #ffa500cc solid 4px;
+  width: 80%;
+  margin: auto;
+}
+
+.about {
+  padding: 15px 20px;
+  color: white;
+  background-color: orange;
+  margin-top: 0.4px;
+  border: solid 0.5px orange;
+  text-transform: uppercase;
+}
+
+.row-images {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin: 40px auto;
+}
+
+.row-images > div {
+  width: 32%;
+}
+
+.row-images img {
+  max-width: 100%;
+}
+
+.name {
+  color: orange;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: medium;
+  text-align: center;
+}
+
+.position {
+  color: #3a3e42;
+  text-align: center;
+}
+
+.row-4 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.seventy {
+  width: 69%;
+}
+
+.seventy > p {
+  text-align: start;
+}
+
+.thirty {
+  width: 29%;
+}
+
+.row-5 {
+  width: 80%;
+  margin: 30px auto;
+  border-top: solid purple;
+}
+
+.services {
+  border: purple solid;
+  border-top: solid purple 2px;
+  color: white;
+  background-color: purple;
+  padding: 15px 20px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.row-5-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.row-5-container > div {
+  width: 31%;
+  background-color: purple;
+  display: flex;
+  color: white;
+  text-transform: capitalize;
+}
+
+.twenty {
+  padding: 20px 20px;
+  width: 10%;
+}
+
+.eighty {
+  width: 79%;
+  text-align: center;
+  padding: 15px;
+}
+
+.eighty > P {
+  margin: 0;
+}
+
+.responsive {
+  width: 79%;
+  padding: 13px 0;
+  text-align: center;
+}
+
+.unlimmited {
+  width: 79%;
+  padding: 13px 0;
+  text-align: center;
+}
+
+.unlimmited p,
+.responsive p {
+  margin: 0;
+}
+
+.skills {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 0;
+}
+
+.our {
+  width: 69%;
+}
+
+.our > h3 {
+  color: purple;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.our > p {
+  color: #3a3e42;
+}
+
+.percentages {
+  width: 29%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.percentages button {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  border-radius: 5px;
+  border: white;
+  background: #f4f6f2;
+  color: white;
+  border-left: purple solid;
+  margin: 8px 0;
+}
+
+.graphics {
+  width: 90%;
+  background-color: purple;
+  padding: 1px 0;
+}
+
+.ten {
+  width: 10%;
+  background-color: #f4f6f2;
+}
+
+.s75 {
+  width: 75%;
+  background: purple;
+}
+
+.s66 {
+  width: 66%;
+  background-color: purple;
+}
+
+.e88 {
+  width: 88%;
+  background-color: purple;
+}
+
+.row-portfolio {
+  width: 80%;
+  margin: 40px auto;
+  border-top: #72de9d solid;
+}
+
+.row-portfolio button {
+  border-top: #72de9d;
+  color: white;
+  background: #72de9d;
+  border: none;
+  padding: 14px 20px;
+  text-transform: uppercase;
+}
+
+.row-image {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.row-image > div {
+  width: 32%;
+}
+
+.row-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.row-image h3 {
+  color: #72de9d;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 490;
+}
+
+.more-parent {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.more-parent > button {
+  border-bottom: green solid;
+}
+.contact {
+  width: 80%;
+  margin: 40px auto;
+  border-top: #d3477b solid;
+}
+.contact button {
+  border-top: #d3477b solid;
+  color: white;
+  background: rgba(211, 71, 123, 0.9);
+  border: none;
+  padding: 14px 20px;
+}
+.table-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.input > input {
+  padding: 10px 16px;
+  border: gray solid 2.5px;
+}
+.input > p,
+.message,
+.gray {
+  color: #4c5055;
+}
+p > span {
+  color: red;
+}
+textarea {
+  width: 100%;
+  border: gray solid 2.5px;
+}
+.message {
+  background: rgba(212, 74, 125, 0.8) !important;
+  margin-top: 20px;
+  border-bottom: rgba(211, 71, 123, 1) solid !important;
+}
+
+.fluid-icon {
+  background-color: #4c4f54;
+  height: 80px;
+  width: 79%;
+  margin-left: 20.1%
+}
+
+.social {
+  padding-top: 20px;
+  border: black solid;
+  text-align: center;
+}
+.margin {
+background-color: #323639;
+  
+  padding: 20px 0;
+}
+.margin > div {
+  width: 80%;
+  margin: auto;
+  text-align: start;
+  color: #4c5055;
+
+}
+.margin span{
+  color: white;
+}
