@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#root{
+
+background-color: #b1d6cf;
+}
+#root>h2{
+    padding-top:5px;
+    padding-bottom:5px ;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+form{
+    width: 90%;
+    margin: auto;
+    background-color: aliceblue;
+
+    margin-top: 10px;
+}
+form p {
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.name-input,.email-input,.age-input {
+    text-align: center;
+}
+.firstColumn{
+    width: 50%;
+    text-align: end;
+}
+.firstColumn>label{
+    display: block;
+    margin-top: 10px;
+}
+.secondRow{
+    background-color: red;
+    height: 100px;
+}
+.flex{
+    display: flex;
+}
+.nameFlex{
+    display: flex;
+}

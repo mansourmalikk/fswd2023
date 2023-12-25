@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+    <div id="root">
+      <h2>Survey form</h2>
+      <div>
+        <form class="py-5" action="">
+          <!-- <div class="flex"> -->
+          <p>Let us know how we can improve freeCodeCamp</p>
+          <div class="d-flex">
+            <div class="text-end w-50 my-1 me-1" m>*Name:</div>
+            <div class="w-50 ms-2 my-1">
+              <input type="text" placeholder="Enter Your Name" />
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="text-end w-50 my-1 me-1">*Email:</div>
+            <div class="w-50 ms-2 my-1">
+              <input type="text" placeholder="Enter Your Email" />
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="text-end w-50 my-1 me-1">*Age:</div>
+            <div class="w-50 ms-2 my-1">
+              <input type="text" placeholder="Enter Your Age" />
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="text-end w-50 my-1 me-1">
+              *Which option best describes your current role:
+            </div>
+            <div class="w-50 ms-1 my-1">
+              <select class="ms-1" name="role" id="role">
+                <option value="student">Student</option>
+                <option value="student">Graduate</option>
+                <option value="student">Teacher</option>
+              </select>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="text-end w-50 my-1 me-1">
+              *How likely that you would recommend freeCodeCamp to a friend?:
+            </div>
+            <div class="w-50 ms-2 my-1">
+              <div>
+                <input
+                  type="radio"
+                  id="definintely"
+                  name="drone"
+                  value="huey"
+                  checked
+                />
+                <label for="definitely">Definitely</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="maybe"
+                  name="drone"
+                  value="huey"
+                  checked
+                />
+                <label for="maybe">Maybe</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="notSure"
+                  name="drone"
+                  value="huey"
+                  checked
+                />
+                <label for="notSure">Not sure</label>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="text-end w-50 my-1 me-1">
+              What do you like most in FCC:
+            </div>
+            <div class="w-50 ms-1 my-1">
+              <select class="ms-1" name="role" id="role">
+                <option value="">Please Select an option</option>
+                <option value="easy">It is easy to use</option>
+              </select>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="text-end w-50 my-1 me-1" m >Things that should be improved in the future (Check all that apply):</div>
+            <div class="w-50 ms-2 my-1 " >
+                <div class="checkbox">
+                <input type="checkbox" id="frontEnd" name="frontEnd">
+                <label for="frontEnd">Front-end Projects</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="frontEnd" name="frontEnd">
+                <label for="frontEnd">Back-end Projects</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="frontEnd" name="frontEnd">
+                <label for="frontEnd">Data-Visualization </label>
+            </div>
+            </div>
+
+          </div>
+
+         
+          <div class="w-100  text-center" > <input type="submit"></div>
+
+          <!-- </div> -->
+        </form>
+        
+      </div>
+    </div>
+  </body>
+</html>
